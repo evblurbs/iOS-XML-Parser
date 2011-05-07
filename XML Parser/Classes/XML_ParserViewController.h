@@ -12,11 +12,16 @@
 	
 	NSMutableData *receivedData;
 	IBOutlet UILabel *label;
+	IBOutlet UIButton *parseData;
 
 }
 
 @property (nonatomic, retain) NSMutableData *receivedData;
 @property (nonatomic, retain) IBOutlet UILabel *label;
+@property (nonatomic, retain) IBOutlet UIButton *parseData;
+
+- (IBAction)parseData:(id)sender;
+- (void)startParsingData;
 
 @end
 

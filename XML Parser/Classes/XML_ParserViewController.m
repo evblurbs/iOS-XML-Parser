@@ -12,9 +12,33 @@
 
 @synthesize receivedData;
 @synthesize label;
+@synthesize parseData;
 
 #pragma mark -
 #pragma mark NSURLRequest
+
+- (IBAction)parseData:(id)sender
+{
+	if (receivedData) {
+		receivedData = nil;
+	}
+	label.text = @"Parsing data...";
+	// Request data from URL
+	NSURLRequest *theRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://www.bonifacedesigns.com/tuts/xmltest.xml"]]
+												cachePolicy:NSURLRequestUseProtocolCachePolicy
+											timeoutInterval:60.0];
+	
+	// Start loading data
+	NSURLConnection *theConnection = [[NSURLConnection alloc] initWithRequest:theRequest delegate:self];
+	if (theConnection) 
+	{
+		// Create the NSMutableData to hold the received data
+		receivedData = [[NSMutableData data] retain];
+	} else 
+	{
+		// Inform the user the connection failed.
+	}
+}
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
 {
@@ -41,6 +65,8 @@
 	NSLog(@"Connection failed! Error - %@ %@",
 		  [error localizedDescription],
 		  [[error userInfo] objectForKey:NSURLErrorFailingURLStringErrorKey]);
+	
+	label.text = @"Connection failed!";
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
@@ -89,7 +115,12 @@
 		label.text = myData;
 	}
 }
-
+- (void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError {
+	
+	NSLog(@"Parsing error");
+	label.text = @"Parsing error!";
+	
+}
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -112,21 +143,7 @@
 
 - (void)viewDidLoad {
 	
-	// Request data from URL
-	NSURLRequest *theRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://www.bonifacedesigns.com/tuts/xmltest.xml"]]
-												cachePolicy:NSURLRequestUseProtocolCachePolicy
-											timeoutInterval:60.0];
-	
-	// Start loading data
-	NSURLConnection *theConnection = [[NSURLConnection alloc] initWithRequest:theRequest delegate:self];
-	if (theConnection) 
-	{
-		// Create the NSMutableData to hold the received data
-		receivedData = [[NSMutableData data] retain];
-	} else 
-	{
-		// Inform the user the connection failed.
-	}
+
 	
     [super viewDidLoad];
 }
