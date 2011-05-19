@@ -19,10 +19,15 @@
 
 - (IBAction)parseData:(id)sender
 {
+	
+	// clear NSMutableData object
 	if (receivedData) {
 		receivedData = nil;
 	}
+	
+	// Set label text
 	label.text = @"Parsing data...";
+	
 	// Request data from URL
 	NSURLRequest *theRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://www.bonifacedesigns.com/tuts/xmltest.xml"]]
 												cachePolicy:NSURLRequestUseProtocolCachePolicy
@@ -37,6 +42,7 @@
 	} else 
 	{
 		// Inform the user the connection failed.
+		label.text = @"Unable to make connection";
 	}
 }
 
@@ -66,6 +72,7 @@
 		  [error localizedDescription],
 		  [[error userInfo] objectForKey:NSURLErrorFailingURLStringErrorKey]);
 	
+	// Set label text
 	label.text = @"Connection failed!";
 }
 
@@ -118,6 +125,8 @@
 - (void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError {
 	
 	NSLog(@"Parsing error");
+	
+	// Notify user of parser error
 	label.text = @"Parsing error!";
 	
 }

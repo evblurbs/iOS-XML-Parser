@@ -1,7 +1,7 @@
 TXML Parser
 v7
 r0
-t326496902.489787
+t327486562.858586
 cCheck dependencies
 cCpResource "build/Debug-iphoneos/XML Parser.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/Info.plist" XML_Parser-Info.plist
@@ -12,10 +12,10 @@ cProcessPCH /var/folders/x2/x2xYlzqRFyOpJPVXnEP3sk+++TI/-Caches-/com.apple.Xcode
 cCompileC "build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/main.o" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML_ParserAppDelegate.o" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML_ParserViewController.o" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML Parser" normal armv6
 cCompileC "build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/main.o" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML_ParserAppDelegate.o" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML_ParserViewController.o" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML Parser" normal armv6
 cLd "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML Parser" normal armv7
 cCreateUniversalBinary "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/XML Parser" normal "armv6 armv7"
 cGenerateDSYMFile "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app.dSYM" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/XML Parser"
@@ -84,9 +84,9 @@ s593
 i<UIKit/UIKit.h>
 
 N/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m
-c000000004DC5BA9F00000000000011C1
-t1304803999
-s4545
+c000000004DD4D586000000000000125B
+t1305793926
+s4699
 i"XML_ParserViewController.h"
 
 N/Users/johnse4/Documents/iOS XML Parser/XML Parser/MainWindow.xib
@@ -107,11 +107,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app
-t1304804001
+t1305793762
 s374
 
 N/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app.dSYM
-t1304804001
+t1305793762
 s102
 
 N/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/Info.plist
@@ -131,7 +131,7 @@ t1304753708
 s485
 
 N/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/XML Parser
-t1304804001
+t1305793762
 s67552
 
 N/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/XML_ParserViewController.nib
@@ -143,7 +143,7 @@ t1304753710
 s7244
 
 N/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML Parser
-t1304804001
+t1305793762
 s24724
 
 N/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML Parser.LinkFileList
@@ -156,15 +156,15 @@ t1304754652
 s50860
 
 N/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML_ParserViewController.o
-t1304804001
-s54580
+t1305793761
+s54748
 
 N/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/main.o
 t1304753709
 s6472
 
 N/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML Parser
-t1304804001
+t1305793762
 s24724
 
 N/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML Parser.LinkFileList
@@ -177,8 +177,8 @@ t1304754652
 s50780
 
 N/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML_ParserViewController.o
-t1304804001
-s54292
+t1305793762
+s54456
 
 N/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/main.o
 t1304753709
@@ -214,15 +214,15 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies326496902#326496902#0(0"0(0#1#0"8640153472#0"0#
+lSLF07#2@18"Check dependencies327486560#327486560#0(0"0(0#1#0"8607252576#0"0#
 
 CCodeSign "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app"
-s326496801.641622
-e326496801.808057
+s327486562.465772
+e327486562.858539
 r1
 xCodeSign
 x/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app
-lSLF07#2@46"CodeSign "build/Debug-iphoneos/XML Parser.app"326496801#326496801#0(0"0(0#0#86"/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app8640110368#719"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Evan Johnson (S6VLN5433D)" "--resource-rules=/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/ResourceRules.plist" --entitlements "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser.xcent" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app"0#
+lSLF07#2@46"CodeSign "build/Debug-iphoneos/XML Parser.app"327486562#327486562#0(0"0(0#0#86"/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app8599591968#719"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Evan Johnson (S6VLN5433D)" "--resource-rules=/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/ResourceRules.plist" --entitlements "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser.xcent" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app"0#
 
 CCompileC "build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML_ParserAppDelegate.o" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
 s326447452.449129
@@ -238,8 +238,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@90"Compile /Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserAppDelegate.m326447452#326447452#0(0"0(0#0#82"/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserAppDelegate.m8630905440#1980"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-generated-files.hmap" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-own-target-headers.hmap" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-all-target-headers.hmap" -iquote "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-project-headers.hmap" "-F/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/include" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/DerivedSources/armv6" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/DerivedSources" -include /var/folders/x2/x2xYlzqRFyOpJPVXnEP3sk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XML_Parser_Prefix-folwjpomgmxsjxagykljllmmebqg/XML_Parser_Prefix.pch -c "/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserAppDelegate.m" -o "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML_ParserAppDelegate.o"0#
 
 CCompileC "build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML_ParserViewController.o" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s326496801.503912
-e326496801.587124
+s327486560.801027
+e327486561.197469
 r1
 xCompileC
 xbuild/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML_ParserViewController.o
@@ -248,7 +248,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m326496801#326496801#0(0"0(0#0#85"/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m8638682272#1986"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-generated-files.hmap" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-own-target-headers.hmap" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-all-target-headers.hmap" -iquote "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-project-headers.hmap" "-F/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/include" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/DerivedSources/armv6" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/DerivedSources" -include /var/folders/x2/x2xYlzqRFyOpJPVXnEP3sk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XML_Parser_Prefix-folwjpomgmxsjxagykljllmmebqg/XML_Parser_Prefix.pch -c "/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m" -o "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML_ParserViewController.o"0#
+lSLF07#2@93"Compile /Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m327486560#327486561#0(0"0(0#0#85"/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m8604976352#1986"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-generated-files.hmap" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-own-target-headers.hmap" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-all-target-headers.hmap" -iquote "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-project-headers.hmap" "-F/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/include" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/DerivedSources/armv6" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/DerivedSources" -include /var/folders/x2/x2xYlzqRFyOpJPVXnEP3sk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XML_Parser_Prefix-folwjpomgmxsjxagykljllmmebqg/XML_Parser_Prefix.pch -c "/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m" -o "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML_ParserViewController.o"0#
 
 CCompileC "build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/main.o" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
 s326446509.794005
@@ -277,8 +277,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@90"Compile /Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserAppDelegate.m326447452#326447452#0(0"0(0#0#82"/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserAppDelegate.m8631157120#1980"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-generated-files.hmap" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-own-target-headers.hmap" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-all-target-headers.hmap" -iquote "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-project-headers.hmap" "-F/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/include" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/DerivedSources/armv7" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/DerivedSources" -include /var/folders/x2/x2xYlzqRFyOpJPVXnEP3sk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XML_Parser_Prefix-gkfhfcvxaiwnglckupzxtbyrvicd/XML_Parser_Prefix.pch -c "/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserAppDelegate.m" -o "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML_ParserAppDelegate.o"0#
 
 CCompileC "build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML_ParserViewController.o" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
-s326496801.505340
-e326496801.580833
+s327486560.983002
+e327486562.102364
 r1
 xCompileC
 xbuild/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML_ParserViewController.o
@@ -287,7 +287,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m326496801#326496801#0(0"0(0#0#85"/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m8638255584#1986"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-generated-files.hmap" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-own-target-headers.hmap" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-all-target-headers.hmap" -iquote "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-project-headers.hmap" "-F/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/include" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/DerivedSources/armv7" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/DerivedSources" -include /var/folders/x2/x2xYlzqRFyOpJPVXnEP3sk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XML_Parser_Prefix-gkfhfcvxaiwnglckupzxtbyrvicd/XML_Parser_Prefix.pch -c "/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m" -o "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML_ParserViewController.o"0#
+lSLF07#2@93"Compile /Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m327486560#327486562#0(0"0(0#0#85"/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m8600704832#1986"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-generated-files.hmap" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-own-target-headers.hmap" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-all-target-headers.hmap" -iquote "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser-project-headers.hmap" "-F/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/include" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/DerivedSources/armv7" "-I/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/DerivedSources" -include /var/folders/x2/x2xYlzqRFyOpJPVXnEP3sk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XML_Parser_Prefix-gkfhfcvxaiwnglckupzxtbyrvicd/XML_Parser_Prefix.pch -c "/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m" -o "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML_ParserViewController.o"0#
 
 CCompileC "build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/main.o" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
 s326446509.798118
@@ -329,43 +329,43 @@ x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceR
 lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist326446508#326446508#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist3328773876851107328#525"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app"0#
 
 CCreateUniversalBinary "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/XML Parser" normal "armv6 armv7"
-s326496801.610233
-e326496801.613115
+s327486562.384606
+e327486562.407784
 r1
 xCreateUniversalBinary
 x/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/XML Parser
 xnormal
 xarmv6 armv7
-lSLF07#2@91"CreateUniversalBinary "build/Debug-iphoneos/XML Parser.app/XML Parser" normal "armv6 armv7"326496801#326496801#0(0"0(0#0#62"/Users/johnse4/Documents/iOS XML Parser/XML Parser/armv6 armv78638696832#598"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML Parser" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML Parser" -output "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/XML Parser"0#
+lSLF07#2@91"CreateUniversalBinary "build/Debug-iphoneos/XML Parser.app/XML Parser" normal "armv6 armv7"327486562#327486562#0(0"0(0#0#62"/Users/johnse4/Documents/iOS XML Parser/XML Parser/armv6 armv78612536928#598"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML Parser" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML Parser" -output "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/XML Parser"0#
 
 CGenerateDSYMFile "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app.dSYM" "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/XML Parser"
-s326496801.613232
-e326496801.639083
+s327486562.407899
+e327486562.461582
 r1
 xGenerateDSYMFile
 x/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app.dSYM
 x/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/XML Parser
-lSLF07#2@108"GenerateDSYMFile "build/Debug-iphoneos/XML Parser.app.dSYM" "build/Debug-iphoneos/XML Parser.app/XML Parser"326496801#326496801#0(0"0(0#0#97"/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/XML Parser8637937344#413"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/XML Parser" -o "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app.dSYM"0#
+lSLF07#2@108"GenerateDSYMFile "build/Debug-iphoneos/XML Parser.app.dSYM" "build/Debug-iphoneos/XML Parser.app/XML Parser"327486562#327486562#0(0"0(0#0#97"/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/XML Parser8607368160#413"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/XML Parser" -o "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app.dSYM"0#
 
 CLd "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML Parser" normal armv6
-s326496801.587233
-e326496801.609764
+s327486561.197591
+e327486562.289708
 r1
 xLd
 x/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML Parser
 xnormal
 xarmv6
-lSLF07#2@142"Link /Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML Parser326496801#326496801#0(0"0(0#0#0"8639989696#947"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos" "-F/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos" -filelist "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML Parser.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML Parser"0#
+lSLF07#2@142"Link /Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML Parser327486561#327486562#0(0"0(0#0#0"8613167232#947"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos" "-F/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos" -filelist "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML Parser.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv6/XML Parser"0#
 
 CLd "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML Parser" normal armv7
-s326496801.580940
-e326496801.610126
+s327486562.102483
+e327486562.384413
 r1
 xLd
 x/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML Parser
 xnormal
 xarmv7
-lSLF07#2@142"Link /Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML Parser326496801#326496801#0(0"0(0#0#0"8639802208#947"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos" "-F/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos" -filelist "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML Parser.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML Parser"0#
+lSLF07#2@142"Link /Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML Parser327486562#327486562#0(0"0(0#0#0"8605376480#947"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos" "-F/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos" -filelist "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML Parser.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/Objects-normal/armv7/XML Parser"0#
 
 CProcessInfoPlistFile "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app/Info.plist" XML_Parser-Info.plist
 s326446508.042299
@@ -421,10 +421,10 @@ x/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug
 lSLF07#2@186"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser.xcent"326446510#326446510#0(0"0(0#0#122"/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser.xcent8617625344#469"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/XML Parser.build/Debug-iphoneos/XML Parser.build/XML Parser.xcent"0#
 
 CTouch "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app"
-s326496801.639249
-e326496801.641412
+s327486562.461831
+e327486562.465527
 r1
 xTouch
 x/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app
-lSLF07#2@92"Touch /Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app326496801#326496801#0(0"0(0#0#0"8640130336#295"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app"0#
+lSLF07#2@92"Touch /Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app327486562#327486562#0(0"0(0#0#0"8601885344#295"    cd "/Users/johnse4/Documents/iOS XML Parser/XML Parser"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/johnse4/Documents/iOS XML Parser/XML Parser/build/Debug-iphoneos/XML Parser.app"0#
 

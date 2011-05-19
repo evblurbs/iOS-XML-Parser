@@ -1,5 +1,0 @@
-/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m: In function '-[XML_ParserViewController connectionDidFinishLoading:]':
-/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m:53: warning: 'XML_ParserViewController' may not respond to '-startParsingData'
-/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m:53: warning: (Messages without a matching method signature
-/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m:53: warning: will be assumed to return 'id' and accept
-/Users/johnse4/Documents/iOS XML Parser/XML Parser/Classes/XML_ParserViewController.m:53: warning: '...' as arguments.)
